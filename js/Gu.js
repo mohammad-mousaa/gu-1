@@ -3,13 +3,13 @@ $(document).ready(function() {
     var WinWidth = $(window).width()
 
     // Refresh page on resize 
-    $(window).resize(function() {
-        var WinWidthAfterResize = $(window).width();
-        console.log(WinWidth + "   " + WinWidthAfterResize)
-        if (WinWidth != WinWidthAfterResize) {
-            location.reload();
-        }
-    });
+//     $(window).resize(function() {
+//         var WinWidthAfterResize = $(window).width();
+//         console.log(WinWidth + "   " + WinWidthAfterResize)
+//         if (WinWidth != WinWidthAfterResize) {
+//             location.reload();
+//         }
+//     });
 
     
 	// Close Nav When Click On it
