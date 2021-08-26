@@ -28,9 +28,9 @@ $(document).ready(function() {
 		}
 	})
 
-    var navHeight =$(".navbar").outerHeight(true);
-    $("section").css("paddingTop" , navHeight + 15);
-    $("section").css("paddingBottom" , navHeight);
+//     var navHeight =$(".navbar").outerHeight(true);
+//     $("section").css("paddingTop" , navHeight + 15);
+//     $("section").css("paddingBottom" , navHeight);
 
 	
 
